@@ -1,6 +1,6 @@
 <?php
 
-/*
+
 // initialize variable
 
 $txt_phone = @$_POST["phone"];
@@ -16,7 +16,7 @@ $request->setMethod(HTTP_REQUEST_METHOD_GET);
 $request->addQueryString('mobile_number',$txt_phone);
 $request->addQueryString('sms_text',$txt_message);
 $request->addQueryString('label','og-100157-one-way');
-$request->addQueryString('sender_id','gssdfdsfds');
+$request->addQueryString('sender_id','TestSender!!!!');
 //$request->addQueryString('source','1001');
 $request->addQueryString('encoding',array(
     'plaintext',
@@ -36,7 +36,7 @@ try {
 } catch (HttpException $ex) {
     echo $ex;
 }
-*/
+
 
 sleep(2);
 echo "success";
