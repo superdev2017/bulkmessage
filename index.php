@@ -78,7 +78,7 @@ if ($txt_phones != null) {
 <div class="container">
 
     <div class="panel panel-default">
-        <div class="panel-heading">Phone List</div>
+        <div class="panel-heading">Sending messages at once</div>
         <div class="panel-body">
             <div class="col-sm-12">
                 <form class="form-horizontal" action="index.php" method="post">
