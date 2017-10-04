@@ -10,6 +10,7 @@ $request = new HTTP_Request();
 
 $apiKey = 'sm8c6bdbf78d6c49e38a4f7432cd1f05df';
 
+
 $request->setUrl('http://api.onehop.co/v1/sms/send/');
 $request->setMethod(HTTP_REQUEST_METHOD_GET);
 
@@ -22,6 +23,8 @@ $request->addQueryString('encoding',array(
     'plaintext',
     'unicode'
 ));
+
+
 
 
 $request->addHeader('cache-control','no-cache');
@@ -38,5 +41,5 @@ try {
 }
 
 
-sleep(2);
+sleep(5);
 echo "success";
